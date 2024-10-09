@@ -103,7 +103,7 @@
 ```mermaid
 graph TD
     A([Начало]) --> B[/Ввести: a, b, c/]
-    B -->C[/Math.sign()/]
+    B -->C[/Math.sign/]
     C-->D{a * b * c == 0}
     D -- Да --> E[/Вывод: Есть нулевые/]
     D -- Нет --> H[/sumSign = a + b + c/]
